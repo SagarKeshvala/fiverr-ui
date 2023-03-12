@@ -14,7 +14,7 @@
 	}
 
 	.container {
-		width: 80%;
+		width: 90%;
 		display: flex;
 		justify-content: space-between;
 		padding: 20px 0px;
@@ -34,6 +34,36 @@
 			align-items: center;
 			gap: 22px;
 			font-weight: 500;
+
+			.user {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				cursor: pointer;
+				position: relative;
+
+				img {
+					height: 30px;
+					width: 30px;
+					border-radius: 100%;
+				}
+
+				.options {
+					position:absolute;
+					top: 50px;
+					right: 0px;
+					padding: 20px;
+					background-color: #fff;
+					border-radius: 10px;
+					border: 1px solid lightgray;
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					color: gray;
+					width: 200px;
+					font-size: 14px;
+				}
+			}
 
 			button {
 				color: #fff;
@@ -58,7 +88,7 @@
 	}
 
 	.menu {
-		width: 80%;
+		width: 90%;
 		padding: 10px 0px;
 		display: flex;
 		justify-content: space-between;
