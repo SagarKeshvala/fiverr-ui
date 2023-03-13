@@ -5,7 +5,6 @@ import "./Navbar.scss";
 const Navbar = () => {
 	const [active, setActive] = useState(false);
 	const [open, setOpen] = useState(false);
-
 	const { pathname } = useLocation();
 
 	const isActive = () => {
