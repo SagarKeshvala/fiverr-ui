@@ -55,6 +55,7 @@ const Home = () => {
 					</div>
 					<div className="item">
 						<iframe
+							title="freelancer"
 							frameborder="0"
 							width="640"
 							height="360"
