@@ -32,11 +32,11 @@ function App() {
 					element: <Home />,
 				},
 				{
-					path: "/gigs ",
+					path: "/gigs",
 					element: <Gigs />,
 				},
 				{
-					path: "/gig:id",
+					path: "/gig/:id",
 					element: <Gig />,
 				},
 				{
