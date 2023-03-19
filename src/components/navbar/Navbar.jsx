@@ -54,6 +54,9 @@ const Navbar = () => {
 											<Link to="/mygigs" className="link">
 												Gigs
 											</Link>
+											<Link to="/gigs" className="link">
+												Buy
+											</Link>
 											<Link to="/add" className="link">
 												Add New Gig
 											</Link>
